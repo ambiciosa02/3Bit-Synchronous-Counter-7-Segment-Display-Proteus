@@ -1,0 +1,1 @@
+# 3Bit-Synchronous-Counter-7-Segment-Display-Proteus
