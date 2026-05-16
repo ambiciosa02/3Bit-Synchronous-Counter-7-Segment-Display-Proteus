@@ -23,6 +23,9 @@ The project is divided into four main parts:
 - ✅ Verify counting sequence:  
   `000 → 001 → 010 → 011 → 100 → 101 → 110 → 111 → 000`
 
+  <img width="477" height="253" alt="image" src="https://github.com/user-attachments/assets/91d1809f-c6df-4b99-b6d1-ced453aae5c4" />
+
+
 ### 🔷 Part B – Adding 7-Segment Display
 - ✅ Add **CD4511** decoder and **7SEG-COM-CATHODE** display.
 - ✅ Connect counter outputs:
@@ -30,11 +33,19 @@ The project is divided into four main parts:
 - ✅ Configure `LT`, `BI`, and `LE` pins for normal operation.
 - ✅ Verify display shows: `0, 1, 2, 3, 4, 5, 6, 7`
 
+  <img width="418" height="351" alt="image" src="https://github.com/user-attachments/assets/cf952003-908b-4197-ad94-71ce55613d0b" />
+
+
 ### 🔷 Part C – Modifying Counter (0 to 6)
 - ✅ Remove the unwanted state `111` (7).
 - ✅ Detect state `111` using a **3-input AND gate**.
 - ✅ Connect the reset signal to the **CLR** pins of all D flip-flops (asynchronous reset).
 - 🔄 New cycle: `0 → 1 → 2 → 3 → 4 → 5 → 6 → 0`
+
+
+<img width="367" height="278" alt="image" src="https://github.com/user-attachments/assets/051d4a3c-a58b-4c20-8b7b-bbd1e14bfb0a" />
+
+
 
 ### ⭐ Part D – Bonus: JK Flip-Flop Counter (0 to 4)
 - ✅ Design a decimal counter (0 to 4) using **JK flip-flops (7476)**.
@@ -42,7 +53,9 @@ The project is divided into four main parts:
 - ✅ Use Karnaugh maps to derive logic equations for `J` and `K` inputs.
 - ✅ Display results on 7-segment display via CD4511.
 
----
+<img width="377" height="350" alt="image" src="https://github.com/user-attachments/assets/ddaab85f-8b24-4a39-94d8-e04399e74ec2" />
+
+
 
 ## 🧰 3. Components Used (Proteus)
 | Component | Reference |
@@ -52,7 +65,7 @@ The project is divided into four main parts:
 | Logic gates | XOR, AND, NAND |
 | BCD Decoder | CD4511 |
 | Display | 7SEG-COM-CATHODE |
-| Probes | Logic probes / oscilloscope |
+
 
 ---
 
@@ -81,31 +94,12 @@ The project is divided into four main parts:
    - 🟢 7-segment display for decimal readout.
 4. ⏰ Use the clock source to trigger counting.
 
----
 
-## 📁 7. Files Included
-| File | Description |
-|------|-------------|
-| `TP2_RACHDI_KAOUTAR.pdf` | 📄 Full TP report (French) |
-| `README.md` | 📖 This file |
-| `schematic_partA.pdsprj` | 🔷 Modulo-8 counter |
-| `schematic_partB.pdsprj` | 🔷 With 7-segment display |
-| `schematic_partC.pdsprj` | 🔷 Counter 0→6 |
-| `schematic_partD.pdsprj` | ⭐ JK counter 0→4 (bonus) |
-| `screenshots/` | 📸 Simulation captures |
-
----
-
-## 📧 8. Author Contact
-For any questions or collaboration:  
-**Kaoutar Rachdi** – [Your email or contact info]
-
----
 
 ## 🙏 9. Acknowledgments
 Special thanks to **Pr. Abdelilah ET-TALEBY** for supervision and guidance.
 
----
+
 
 ## ⚖️ 10. License
 📚 This project is for **educational purposes only**.
